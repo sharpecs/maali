@@ -6,7 +6,7 @@
 
 As a data analyst this framework allows me to develop tools quickly for the capturing, structuring and modelling of data offering features like a rich UI, high performance and a fast development process. 
 
-## Architecture
+## About
 
 The architecture used here is based on the standard Flutter skeleton template which applies some best practices in structuring a new project. State management is included with a simple class (Provider) from the Flutter SDK that provides change notifications to listeners. This approach uses a model-view-controller configuration with services.
 

@@ -8,7 +8,7 @@ As a data analyst this framework allows me to develop tools quickly for the capt
 
 ## Architecture
 
-The acrhitecture used here is based on the standard Flutter skeleton template which applies some best practices in structuring a new project. State management is included with a simple class from the Flutter SDK which provides (Provider) change notifications to it's listeners. This approach requires a model-view-controller configuration with services.
+The architecture used here is based on the standard Flutter skeleton template which applies some best practices in structuring a new project. State management is included with a simple class from the Flutter SDK which provides (Provider) change notifications to it's listeners. This approach requires a model-view-controller configuration with services.
 
 <figure>
     <center>

@@ -4,11 +4,11 @@
 
 ### *Flutter is an open source framework for building beautiful, natively compiled, multi-platform applications from a single codebase*.
 
-As a data analyst this framework allows me to develop tools quickly for the capturing, structuring and modelling of data offering features like a rich UI, high perfromance and a fast development process. 
+As a data analyst this framework allows me to develop tools quickly for the capturing, structuring and modelling of data offering features like a rich UI, high performance and a fast development process. 
 
 ## Architecture
 
-The architecture used here is based on the standard Flutter skeleton template which applies some best practices in structuring a new project. State management is included with a simple class from the Flutter SDK which provides (Provider) change notifications to it's listeners. This approach requires a model-view-controller configuration with services.
+The architecture used here is based on the standard Flutter skeleton template which applies some best practices in structuring a new project. State management is included with a simple class (Provider) from the Flutter SDK that provides change notifications to listeners. This approach uses a model-view-controller configuration with services.
 
 <figure>
     <center>
@@ -16,10 +16,10 @@ The architecture used here is based on the standard Flutter skeleton template wh
     <center>
 </figure>
 
-localised generated messages are based on arb files found in the `lib/src/localization` directory using the **l10n.yaml** file. This will localise the Material packages to one of the 78 available locales. Widgets will atuomatically adapt to localised messages. To support additional languages, please visit the tutorial on [Internationalizing Flutter
+localised generated messages are based on arb files found in the `lib/src/localization` directory using the **l10n.yaml** file. This will localise the Material packages to one of the 78 available locales. Widgets will automatically adapt to localised messages. To support additional languages, please visit the tutorial on [Internationalizing Flutter
 apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization).
 
-Navigation is done with the Navigator 2.0 pattern using a router to handle routes from the underlying platform to display appropriate pages. This pattern allows flexibility for cross platform applications. Interaction between router, parser and state is discribed in this article [Learning Flutter’s new navigation and routing system](https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade).
+Navigation is done with the Navigator 2.0 pattern using a router to handle routes from the underlying platform to display appropriate pages. This pattern allows flexibility for cross platform applications. Interaction between router, parser and state is described in this article [Learning Flutter’s new navigation and routing system](https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade).
 
 Data persistence is achieved by storing key-value data on disk (Store). JSON and serialization methods are applied to easily store structured data as strings which can cause expensive janking computations (> 16ms).
 
